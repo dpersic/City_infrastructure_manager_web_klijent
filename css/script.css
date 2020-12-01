@@ -1,0 +1,131 @@
+
+body, html {
+    margin: 5px;
+    padding: 35px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #2196F3;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #CCFFFF;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+img {
+  display: line;
+  width: 100px;
+  height: 50px;
+}
+
+#float_right_logout
+{
+  float:right;
+  cursor: pointer;
+}
+
+#float_left
+{
+  float:left;
+  cursor: pointer;
+}
+
+#legend 
+{
+  
+  font-family: Arial, sans-serif;
+  background: #fff;
+  display: inline-flex;
+  position:relative; 
+  padding-right: inherit;
+  padding-left: inherit;
+
+ 
+  text-align: center;
+}
+
+#legend h3 
+{
+  display: flex;
+  margin-top: 3px;
+}
+
+#legend img  
+{
+
+  width: 35px;
+  height: 35px;
+
+}
+#legend p
+{
+
+  text-shadow: 2px 2px 8px #000;
+  width: auto;
+  height: auto;
+}
+
+#legend_svi_prikazi 
+{
+  
+  font-family: Arial, sans-serif;
+  background: #fff;
+      display: inline-flex;
+   position:relative; 
+  padding-right: inherit;
+  padding-left: inherit;
+
+ 
+  text-align: center;
+}
+
+#legend_svi_prikazi h3 
+{
+
+  display: flex;
+  margin-top: 3px;
+}
+
+#legend_svi_prikazi img  
+{
+  width: 35px;
+  height: 35px;
+
+}
+#legend_svi_prikazi p
+{
+
+  text-shadow: 2px 2px 8px #000;
+  width: auto;
+  height: auto;
+}
+
+
+
+
+
